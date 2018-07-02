@@ -79,7 +79,7 @@ CATCHER=1
 STR=""
 echo -e "\n\n\n\n\n\n\n\n\n\033[8F\033[s"
 while [ 1 = 1 ]
-do 	lines=$(($(tput cols)-17))
+do 	lines=$(($(tput cols)-18))
         if [ "$COUNTER" -gt 1 ]; then
 	until [ "$CATCHER" -eq "$COUNTER" ]; do
           STR+=" "
